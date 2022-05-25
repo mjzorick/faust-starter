@@ -25,6 +25,7 @@ export function PostComponent({ post }: PostProps) {
         </title>
       </Head>
 
+
       <Hero
         title={post?.title()}
         bgImage={post?.featuredImage?.node?.sourceUrl()}
